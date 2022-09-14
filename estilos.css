@@ -51,6 +51,10 @@ border-radius: 10px; (Se usa para asignar curvatura a los bordes)
 a:hover {color: #C78C19;} (La propiedad hover se usa para capturar el movimiento del mouse (flecha por encima de un elemento, el elemento haga algo, en ese caso cambiar de color))
 li:active {border-color: #088c19;} (La propiedad active se usa para capturar el clicl del mouse (flecha) y tomando el clicl hara algo)
 background: url(media/bg.jpg); (Se usa para poner una imagen de fonto)
+transition: 1s; (Se usa cuando uso la propiedad hover, para indicar el tiempo en el que el boton cambiara de tono, o hara algo al pasar la flecha)
+cursor:pointer; (Se usa para que se active la mano envez de la flecha cunaod la paso por encima de algun elemento)
+transform: scale(1.0); (Se usa para agrandar un elemento cuando paso la lfecha por encima)
+transform: rotate(70deg); (Se usa para que un elemento rote elvalor de ingreso indica los grados del giro)
 
 BUSCAR: posicionamientos static, relative y absolute
 
